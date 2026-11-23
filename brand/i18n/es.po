@@ -6,15 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-02-08 19:35+0000\n"
-"Last-Translator: Ivorra78 <informatica@totmaterial.es>\n"
+"PO-Revision-Date: 2026-11-11 12:46+0000\n"
+"Last-Translator: Carlos Dauden <carlos.dauden@tecnativa.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__supplier_invoice_count
@@ -98,12 +98,12 @@ msgstr "Recuento de archivos adjuntos"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__autopost_bills
 msgid "Auto-post bills"
-msgstr ""
+msgstr "Auto-envio Facturas"
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__autopost_bills
 msgid "Automatically post bills for this trusted partner"
-msgstr ""
+msgstr "Automáticamente enviar Facturas para estos clientes verificados"
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__receipt_reminder_email
@@ -213,7 +213,7 @@ msgstr "Marcas"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__buyer_id
 msgid "Buyer"
-msgstr ""
+msgstr "Comprador"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__channel_ids
@@ -272,7 +272,7 @@ msgstr "ID de la compañía"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__company_registry_label
 msgid "Company ID Label"
-msgstr ""
+msgstr "Etiqueta ID de la compañía"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__company_name
@@ -320,7 +320,7 @@ msgstr "Contacto"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__contract_ids
 msgid "Contracts"
-msgstr ""
+msgstr "Contratos"
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__message_bounce
@@ -366,7 +366,7 @@ msgstr "Límite de crédito específico para este socio."
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__currency_id
 msgid "Currency"
-msgstr "Divisa"
+msgstr "Moneda"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__property_stock_customer
@@ -376,7 +376,7 @@ msgstr "Ubicación del Cliente"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__customer_payment_mode_id
 msgid "Customer Payment Mode"
-msgstr ""
+msgstr "Modo de Pago del Cliente"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__property_payment_term_id
@@ -406,12 +406,12 @@ msgstr "Grado de confianza que tiene en este deudor"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__display_invoice_edi_format
 msgid "Display Invoice Edi Format"
-msgstr ""
+msgstr "Mostrar formato EDI de factura"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__display_invoice_template_pdf_report_id
 msgid "Display Invoice Template Pdf Report"
-msgstr ""
+msgstr "Mostrar plantilla PDF de informe de factura"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__display_name
@@ -426,7 +426,7 @@ msgstr "No utilice marcas en documentos comerciales"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__duplicate_bank_partner_ids
 msgid "Duplicate Bank Partner"
-msgstr ""
+msgstr "Socio bancario duplicado"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__duplicated_bank_account_partners_count
@@ -491,11 +491,6 @@ msgid "Formatted Email"
 msgstr "Correo Electrónico Formateado"
 
 #. module: brand
-#: model:ir.model.fields,field_description:brand.field_res_brand__global_location_number
-msgid "GLN"
-msgstr ""
-
-#. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__partner_latitude
 msgid "Geo Latitude"
 msgstr "Latitud geográfica"
@@ -504,11 +499,6 @@ msgstr "Latitud geográfica"
 #: model:ir.model.fields,field_description:brand.field_res_brand__partner_longitude
 msgid "Geo Longitude"
 msgstr "Longitud geográfica"
-
-#. module: brand
-#: model:ir.model.fields,help:brand.field_res_brand__global_location_number
-msgid "Global Location Number"
-msgstr ""
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__has_message
@@ -557,12 +547,12 @@ msgstr ""
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__ignore_abnormal_invoice_amount
 msgid "Ignore Abnormal Invoice Amount"
-msgstr ""
+msgstr "Ignorar importe de factura anormal"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__ignore_abnormal_invoice_date
 msgid "Ignore Abnormal Invoice Date"
-msgstr ""
+msgstr "Ignorar fecha de factura anormal"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__image_1920
@@ -607,17 +597,17 @@ msgstr "Factura"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__invoice_edi_format_store
 msgid "Invoice Edi Format Store"
-msgstr ""
+msgstr "Almacén de formato EDI de factura"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__invoice_sending_method
 msgid "Invoice sending"
-msgstr ""
+msgstr "Envío de facturas"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__invoice_template_pdf_report_id
 msgid "Invoice template"
-msgstr ""
+msgstr "Plantilla de Factura"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__invoice_ids
@@ -627,12 +617,12 @@ msgstr "Facturas"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand_mixin__is_brand_required
 msgid "Is Brand Required"
-msgstr ""
+msgstr "Marca obligatoria"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__is_coa_installed
 msgid "Is Coa Installed"
-msgstr ""
+msgstr "Plan contable instalado"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__message_is_follower
@@ -785,8 +775,8 @@ msgstr "Opcional"
 #: model:ir.model.fields,help:brand.field_res_brand__on_time_rate
 msgid ""
 "Over the past x days; the number of products received on time divided by the "
-"number of ordered products.x is either the System Parameter purchase_stock."
-"on_time_delivery_days or the default 365"
+"number of ordered products.x is either the System Parameter "
+"purchase_stock.on_time_delivery_days or the default 365"
 msgstr ""
 "Durante los últimos x días; la cantidad de productos recibidos a tiempo "
 "dividida por la cantidad de productos pedidos.x es el parámetro del sistema "
@@ -805,7 +795,7 @@ msgstr "Socio"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__partner_company_registry_placeholder
 msgid "Partner Company Registry Placeholder"
-msgstr ""
+msgstr "Marcador de posición del registro de empresa del socio"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__use_partner_credit_limit
@@ -815,7 +805,7 @@ msgstr "Límite del socio"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__partner_vat_placeholder
 msgid "Partner Vat Placeholder"
-msgstr ""
+msgstr "Marcador de posición del NIF del socio"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__same_company_registry_partner_id
@@ -858,6 +848,8 @@ msgid ""
 "Preferred payment method when buying from this vendor. This will be set by "
 "default on all outgoing payments created for this vendor"
 msgstr ""
+"Método de pago preferido al comprar a este proveedor. Se establecerá por "
+"defecto en todos los pagos salientes creados para este proveedor"
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__property_inbound_payment_method_line_id
@@ -865,6 +857,8 @@ msgid ""
 "Preferred payment method when selling to this customer. This will be set by "
 "default on all incoming payments created for this customer"
 msgstr ""
+"Método de pago preferido al vender a este cliente. Se establecerá por "
+"defecto en todos los pagos entrantes creados para este cliente"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__property_product_pricelist
@@ -874,17 +868,17 @@ msgstr "Lista de Precio"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__property_inbound_payment_method_line_id
 msgid "Property Inbound Payment Method Line"
-msgstr ""
+msgstr "Línea de método de pago entrante"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__property_outbound_payment_method_line_id
 msgid "Property Outbound Payment Method Line"
-msgstr ""
+msgstr "Línea de método de pago saliente"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__purchase_contract_count
 msgid "Purchase Contracts"
-msgstr ""
+msgstr "Contratos de compra"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__purchase_line_ids
@@ -899,7 +893,7 @@ msgstr "Recuento de órdenes de compra"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__purchase_warn
 msgid "Purchase Order Warning"
-msgstr ""
+msgstr "Aviso de pedido de compra"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__receipt_reminder_email
@@ -929,7 +923,7 @@ msgstr "Usuario Responsable"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__sale_contract_count
 msgid "Sale Contracts"
-msgstr ""
+msgstr "Contratos de venta"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__sale_order_count
@@ -954,12 +948,12 @@ msgstr "Vendedor/a"
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__customer_payment_mode_id
 msgid "Select the default payment mode for this customer."
-msgstr ""
+msgstr "Seleccione el modo de pago predeterminado para este cliente."
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__supplier_payment_mode_id
 msgid "Select the default payment mode for this supplier."
-msgstr ""
+msgstr "Seleccione el modo de pago predeterminado para este proveedor."
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__invoice_warn
@@ -985,6 +979,8 @@ msgstr "Propio"
 #: model:ir.model.fields,help:brand.field_res_brand__use_partner_credit_limit
 msgid "Set a value greater than 0.0 to activate a credit limit check"
 msgstr ""
+"Establezca un valor mayor que 0,0 para activar una comprobación del límite "
+"de crédito"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__partner_share
@@ -1004,7 +1000,7 @@ msgstr "Tipo de ficha de inscripción"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__specific_property_product_pricelist
 msgid "Specific Property Product Pricelist"
-msgstr ""
+msgstr "Tarifa de producto específica de la propiedad"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__starred_message_ids
@@ -1063,7 +1059,7 @@ msgstr "Moneda de Proveedor"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__supplier_payment_mode_id
 msgid "Supplier Payment Mode"
-msgstr ""
+msgstr "Modo de pago del proveedor"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__supplier_rank
@@ -1083,7 +1079,7 @@ msgstr "Número de identificación fiscal"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__vat_label
 msgid "Tax ID Label"
-msgstr ""
+msgstr "Etiqueta del NIF/CIF"
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__country_code
@@ -1340,7 +1336,13 @@ msgstr "Por ej. https://www.odoo.com"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__invoice_edi_format
 msgid "eInvoice format"
-msgstr ""
+msgstr "Formato de factura electrónica"
+
+#~ msgid "GLN"
+#~ msgstr "GLN"
+
+#~ msgid "Global Location Number"
+#~ msgstr "Número de ubicación global"
 
 #~ msgid ""
 #~ "Code used to identify the Endpoint for BIS Billing 3.0 and its "

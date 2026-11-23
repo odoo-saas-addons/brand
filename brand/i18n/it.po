@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-01-14 15:42+0000\n"
+"PO-Revision-Date: 2026-11-15 14:46+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -14,12 +14,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__supplier_invoice_count
 msgid "# Vendor Bills"
-msgstr "N. fatture fornitore"
+msgstr "N° fatture fornitore"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__property_account_payable_id
@@ -368,7 +368,7 @@ msgstr "Valuta"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__property_stock_customer
 msgid "Customer Location"
-msgstr "Ubicazione cliente"
+msgstr "Località cliente"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__customer_payment_mode_id
@@ -487,11 +487,6 @@ msgid "Formatted Email"
 msgstr "Email formattata"
 
 #. module: brand
-#: model:ir.model.fields,field_description:brand.field_res_brand__global_location_number
-msgid "GLN"
-msgstr "NUG"
-
-#. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__partner_latitude
 msgid "Geo Latitude"
 msgstr "Latitudine geografica"
@@ -500,11 +495,6 @@ msgstr "Latitudine geografica"
 #: model:ir.model.fields,field_description:brand.field_res_brand__partner_longitude
 msgid "Geo Longitude"
 msgstr "Longitudine geografica"
-
-#. module: brand
-#: model:ir.model.fields,help:brand.field_res_brand__global_location_number
-msgid "Global Location Number"
-msgstr "Numero ubicazione globale"
 
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__has_message
@@ -780,8 +770,8 @@ msgstr "Opzionale"
 #: model:ir.model.fields,help:brand.field_res_brand__on_time_rate
 msgid ""
 "Over the past x days; the number of products received on time divided by the "
-"number of ordered products.x is either the System Parameter purchase_stock."
-"on_time_delivery_days or the default 365"
+"number of ordered products.x is either the System Parameter "
+"purchase_stock.on_time_delivery_days or the default 365"
 msgstr ""
 "Negli ultimi X giorni; il numero di prodotti ricevuti puntualmente diviso "
 "per il numero di prodotti ordinati. X è il parametro di sistema "
@@ -1084,7 +1074,7 @@ msgstr "Partita IVA"
 #. module: brand
 #: model:ir.model.fields,field_description:brand.field_res_brand__vat_label
 msgid "Tax ID Label"
-msgstr "Etichetta ID imposta"
+msgstr "Etichetta partita IVA"
 
 #. module: brand
 #: model:ir.model.fields,help:brand.field_res_brand__country_code
@@ -1340,6 +1330,12 @@ msgstr "es. https://www.odoo.com"
 msgid "eInvoice format"
 msgstr "Formato fattura elettronica"
 
+#~ msgid "GLN"
+#~ msgstr "NUG"
+
+#~ msgid "Global Location Number"
+#~ msgstr "Numero ubicazione globale"
+
 #~ msgid "Available Peppol Eas"
 #~ msgstr "EAS Peppol disponibile"
 
@@ -1351,8 +1347,8 @@ msgstr "Formato fattura elettronica"
 #~ msgstr ""
 #~ "Codice utilizzato per identificare l'endpoint per BIS Billing 3.0 e suoi "
 #~ "derivati.\n"
-#~ "             Elenco disponibile a https://docs.peppol.eu/poacc/"
-#~ "billing/3.0/codelist/eas/"
+#~ "             Elenco disponibile a https://docs.peppol.eu/poacc/billing/"
+#~ "3.0/codelist/eas/"
 
 #~ msgid "Is Peppol Edi Format"
 #~ msgstr "È un formato EDI Peppol"
